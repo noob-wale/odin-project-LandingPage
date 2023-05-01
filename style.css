@@ -9,19 +9,17 @@
     padding: 10px;
 }
 
-.hero-container {
-    background-color: #1f2937;
-    padding: 50px;
-}
-
 .navcontainer {
     display: flex;
     justify-content: space-between;
+    background-color: #1f2937;
 }
 
 .logo {
     color: #f9faf8;
     font-size: 24px;
+    margin-left: 50px;
+    padding-top: 30px;
 }
 
 .links {
@@ -29,6 +27,8 @@
     justify-content: center;
     color: #e5e7eb;
     font-size: 18px;
+    padding-top: 30px;
+    margin-right: 50px;
 }
 
 a {
@@ -38,18 +38,16 @@ a {
 }
 
 .secHeroContainer {
-    margin-top: 70px;
-    margin-bottom: 70px;
     display: flex;
     padding: 90px;
-    /* border: 1px solid #fff; for debugging */
+    background-color: #1f2937;
+    justify-content: space-between;
 }
 
 .hero-text {
-    /* border: 1px solid #fff; for debugging */
     display: flex;
-    flex-flow: 1;
-    flex-direction: column;
+    flex-flow: column;
+    justify-content: space-between;
     text-align: left;
     margin-right: 50px;
     align-items: center;
@@ -60,11 +58,14 @@ a {
     font-weight: bolder;
     color: #f9faf8;
     align-self: flex-start;
+    margin-top: 20px;
+    margin-left: 10px;
 }
 
 .hero-paragraph {
     font-size: 18px;
     color: #e5e7eb;
+    margin-left: 10px;
 }
 
 .sign-up {
@@ -78,12 +79,23 @@ a {
     align-self: flex-start;
 }
 
-img {
-    margin: 0 60px;
+.hero-text button {
+    margin-left: 10px;
+    margin-bottom: 50px;
 }
 
+.hero-image {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 500px;
+    border: 3px solid #fff;
+}
+
+/* img {
+    margin: 0 60px;
+} */
+
 .content {
-    /* display: flex; */
     justify-content: center;
     padding: 60px;
 }
