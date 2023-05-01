@@ -165,3 +165,11 @@ img {
 .signup-section button {
     border:2px solid #f9faf8 ;
 }
+
+.footer-section {
+    color: #f9faf8;
+    background-color: #1f2937;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
